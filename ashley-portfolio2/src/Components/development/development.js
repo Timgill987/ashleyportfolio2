@@ -11,8 +11,8 @@ function DevelopmentPage(props) {
     const { push } = props.history;
     return (
         <div className="development">
-            <h1>DevelopmentPage</h1>
                 <button onClick={() => push("/")}>Back to Home</button>
+            <h1>DevelopmentPage</h1>
             {/* <header>
                 <div>
                 </div>
