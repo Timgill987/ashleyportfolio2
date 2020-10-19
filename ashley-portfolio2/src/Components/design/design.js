@@ -1,4 +1,5 @@
 import React from "react";
+import App from '../../App';
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import AboutPage from "../about/about";
 
@@ -11,10 +12,12 @@ function DesignPage(props) {
     const { push } = props.history;
     return (
         <div className="design">
-            <header>
                 <button onClick={() => push("/")}>Back to Home</button>
-                <div>
+            <h1>DesignPage</h1>
+
+            {/*
                 </div>
+                <header>
             </header>
             <Grid container spacing={3} justify="center">
                 <Grid item component={Card} xs={12} md={3}>
@@ -47,7 +50,7 @@ function DesignPage(props) {
                         <p>DesignPage</p>
                     </CardContent>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </div>
     );
 }

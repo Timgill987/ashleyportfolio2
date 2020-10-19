@@ -11,8 +11,9 @@ function DevelopmentPage(props) {
     const { push } = props.history;
     return (
         <div className="development">
-            <header>
+            <h1>DevelopmentPage</h1>
                 <button onClick={() => push("/")}>Back to Home</button>
+            {/* <header>
                 <div>
                 </div>
             </header>
@@ -47,7 +48,7 @@ function DevelopmentPage(props) {
                         <p>DevelopmentPage</p>
                     </CardContent>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </div>
     );
 }
