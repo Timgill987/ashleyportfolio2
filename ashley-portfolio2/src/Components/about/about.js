@@ -7,7 +7,7 @@ const { push } = props.history
     return (
         <div className="about">
             <header>
-                <div>
+                <div className="homeBtn-div">
                 <button onClick={() => push("/")}>Back to Home</button>
                 </div>
             </header>

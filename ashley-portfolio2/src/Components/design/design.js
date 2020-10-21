@@ -12,7 +12,6 @@ function DesignPage(props) {
     const { push } = props.history;
     return (
         <div className="design">
-                <button onClick={() => push("/")}>Back to Home</button>
             <h1>DesignPage</h1>
 
             {/*

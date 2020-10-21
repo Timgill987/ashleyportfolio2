@@ -24,17 +24,21 @@ class App extends React.Component {
         return (
             <div className="App">
                 <BrowserRouter>
+                    <div className="main-buttons">
                     <Link to="/design" onClick={this.clickOn}>
                         Instructional Design
                     </Link>
                     <Link to="/development" onClick={this.clickOn}>
                         Development
                     </Link>
+                    </div>
+                    <div className="about-div">
                     {this.state.isActive ? (
                         <Link to="/about" onClick={this.clickOff}>
                             About Me
                         </Link>
                     ) : null}
+                    </div>
                     <Switch>
                         <Route path="/design" component={DesignPage} />
                         <Route path="/about" component={AboutPage} />
