@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.appButton{
+  display: inline-flex;
+  height: 50px;
+  width: 500px;
+  border: 2px solid #BFC0C0;
+  margin: 20px 20px 20px 20px;
+  color: #BFC0C0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative; 
+  cursor: pointer; 
+  transition: all .45s ease-Out;
+}
+
+.circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .5s ease-Out;
+  top: auto;
+  left: auto;
+}
+
+.appButton:hover .circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: auto;
+  left: auto;
+}
+
+.link{
+  text-decoration: none;
+  color:black;
+}
+.link:hover {
+  color: white;
+
+}
+
+
+
+
+
+

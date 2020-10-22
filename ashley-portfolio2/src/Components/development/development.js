@@ -1,10 +1,7 @@
 import React from "react";
-import "../../Less/App.less";
-import App from "../../App";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
-import AboutPage from "../about/about";
 import { Card, CardContent, Typography, Grid } from "@material-ui/core";
-import DesignPage from "../design/design";
+
 
 function DevelopmentPage(props) {
     //setting card placeholders for now.

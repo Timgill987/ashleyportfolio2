@@ -1,7 +1,5 @@
 import React from "react";
 
-import "../../Less/App.less";
-
 function AboutPage(props) {
 const { push } = props.history
     return (
